@@ -1,6 +1,15 @@
+@font-face {
+    font-family: "myfont";
+    src: url('https://fonts.googleapis.com/css?family=Proxima+Nova') format("truetype");
+}
+
 #container {
-    width: 1440px;
+    width: 1470px;
     height: 2240px;
+    left: -5;
+    margin-left: 0;
+
+    background-color: #F5F5F5;
 }
 
 #promotion_banner {
@@ -12,19 +21,38 @@
     margin-left: 2%;
 
     background-color: #EFCFE3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
 }
 
 #promotion_banner h1 {
     position: absolute;
-    width: 518px;
+    width: 800px;
     height: 110px;
-    left: 149px;
+    left: 150px;
+    top: 100px;
 
     font-family: 'Helvetica';
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 110px;
+    font-size: 44px;
+    /* line-height: 110px; */
+
+    color: #4F4F4F;
+}
+
+#promotion_banner p {
+    position: absolute;
+    width: 600px;
+    height: 110px;
+    left: 170px;
+    top: 170px;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    /* line-height: 110px; */
 
     color: #4F4F4F;
 }
@@ -42,7 +70,7 @@
     width: 713px;
     height: 93px;
     left: 363px;
-    top: 729px;
+    top: 650px;
 
     font-family: 'Helvetica';
     font-style: normal;
@@ -59,9 +87,11 @@
     width: 400px;
     height: 400px;
     left: 50px;
-    top: 832px;
+    top: 780px;
 
     background: #FFEAF0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
 }
 
 #signature #icon1 h3 {
@@ -92,9 +122,11 @@
     width: 400px;
     height: 400px;
     left: 521px;
-    top: 832px;
+    top: 780px;
 
     background: #FFEAF0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
 }
 
 #signature #icon2 h3 {
@@ -126,9 +158,11 @@
     width: 400px;
     height: 400px;
     left: 990px;
-    top: 832px;
+    top: 780px;
 
     background: #FFEAF0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
 }
 
 #signature #icon3 h3 {
@@ -152,6 +186,44 @@
     height: 200px;
     left: 100px;
     top: 120px;
+}
+
+#signature #menu_button {
+    position: absolute;
+    width: 316px;
+    height: 62px;
+    left: 580px;
+    top: 1240px;
+
+    border-radius: 25px;
+    background: #EFCFE3;
+}
+
+#signature #menu_button:hover {
+    position: absolute;
+    width: 316px;
+    height: 62px;
+    left: 580px;
+    top: 1240px;
+
+    border-radius: 25px;
+    background: #EA9AB2;
+}
+
+#signature h4 {
+    position: absolute;
+    width: 246x;
+    height: 54px;
+    left: 40px;
+    top: -15px;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #4F4F4F;
 }
 
 header {
@@ -246,23 +318,41 @@ nav a {
     width: 1340px;
     height: 400px;
     left: 50px;
-    top: 1312px;
+    top: 1340px;
 
     background: #FEF7E1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
 }
 
 #order h1 {
     position: absolute;
-    width: 513px;
+    width: 800px;
     height: 110px;
-    left: 149px;
-    top: 50px;
+    left: 150px;
+    top: 100px;
 
     font-family: 'Helvetica';
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    line-height: 110px;
+    font-size: 44px;
+    /* line-height: 110px; */
+
+    color: #4F4F4F;
+}
+
+#order p {
+    position: absolute;
+    width: 550px;
+    height: 110px;
+    left: 170px;
+    top: 170px;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    /* line-height: 110px; */
 
     color: #4F4F4F;
 }
@@ -272,17 +362,30 @@ nav a {
     width: 316px;
     height: 62px;
     left: 874px;
-    top: 140px;
+    top: 180px;
 
+    border-radius: 25px;
     background: #EFCFE3;
 }
+
+#order #order_button:hover {
+    position: absolute;
+    width: 316px;
+    height: 62px;
+    left: 874px;
+    top: 180px;
+
+    border-radius: 25px;
+    background: #EA9AB2;
+}
+
 
 #order #order_button h4 {
     position: absolute;
     width: 246x;
     height: 54px;
     left: 45px;
-    top: -10px;
+    top: -15px;
 
     font-family: 'Helvetica';
     font-style: normal;
@@ -290,7 +393,335 @@ nav a {
     font-size: 24px;
     line-height: 28px;
 
-    color: #000000;
+    color: #4F4F4F;
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #EA9AB2;
+    border-radius: 5px;
+
+    margin-top: 250px;
+    margin-left: 70px;
+    width: 1300px;
+    left: 70px;
+    top: 225px;
+}
+  
+  /* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+  
+  /* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #E27396;
+}
+  
+  /* Create an active/current tablink class */
+.tab button.active {
+    background-color: #E27396;
+}
+  
+  /* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 5px;
+
+    /* margin-top: 200px; */
+    margin-left: 70px;
+    width: 1276px;
+    height: 1400px;
+    left: 70px;
+
+    background-color: #EFCFE3;
+}
+
+.tabcontent .menu_heading {
+    position: absolute;
+    width: 1200px;
+    height: 110px;
+    /* left: 170px;
+    top: 170px; */
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+    /* line-height: 110px; */
+
+    color: #4F4F4F;
+}
+
+.tabcontent .menu_subheading {
+    position: absolute;
+    width: 1200px;
+    height: 110px;
+    /* left: 170px; */
+    margin-top: 100px;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    text-align: center;
+    /* line-height: 110px; */
+
+    color: #4F4F4F;
+}
+
+.tabcontent .menu_content {
+    position: absolute;
+    width: 1200px;
+    /* height: 110px; */
+    /* left: 170px; */
+    margin-top: 200px;
+    margin-left: 50px;
+
+    /* font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px; */
+    /* text-align: center; */
+    /* line-height: 110px; */
+
+    color: #4F4F4F;
+}
+
+.tabcontent .menu_content img {
+    width: 175px;
+    height: 175px;
+}
+
+.tabcontent .menu_content h3 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+
+.tabcontent .menu_content .price {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: right;
+    
+}
+
+.tabcontent .menu_content .description {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    
+}
+
+#ourstory #about_us {
+    position: absolute;
+    width: 1300px;
+    height: 500px;
+    left: 50px;
+    top: 225px;
+    margin-left: 2%;
+
+    background-color: #EFCFE3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+#ourstory #about_us h1 {
+    position: absolute;
+    width: 1300px;
+    height: 110px;
+    left: 220px;
+    top: 50px;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    /* line-height: 110px; */
+
+    color: #4F4F4F;
+}
+
+#ourstory #about_us ul {
+    width: 1100px;
+    margin-top: 200px;
+    margin-left: 70px;
+    
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+#ourstory #gallery_slider {
+    position: absolute;
+    width: 1340px;
+    height: 400px;
+    left: 50px;
+    top: 920px;
+    margin-left: 2%;
+}
+
+#ourstory #video {
+    margin-left: 450px;
+    margin-top: 1400px;
+}
+
+#ourstory h2 {
+    position: absolute;
+    width: 500px;
+    height: 110px;
+    left: 580px;
+    top: 800px;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    /* line-height: 110px; */
+
+    color: #4F4F4F;
+}
+
+#contact_info {
+    position: absolute;
+    width: 1300px;
+    height: 400px;
+    left: 50px;
+    top: 225px;
+    margin-left: 2%;
+
+    background-color: #EFCFE3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+/* #contact_info h2 {
+
+} */
+
+#contact_info table {
+    width: 600px;
+    border: 3px solid;
+    border-color:transparent;
+    border-collapse: collapse;
+    border-spacing: 3px;
+    table-layout: auto;
+    margin-top: -250px;
+    margin-left: 400px;
+}
+
+#contact_info th {
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    background-color: transparent;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+
+    color: #4F4F4F;
+}
+
+#contact_info td {
+    padding: 2px;
+    text-align: left;
+    color: #333333;
+}
+
+#contact_info .row_header {
+    vertical-align: top;
+    text-align: right;
+    width: 700px;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+
+    color: #4F4F4F;
+}
+
+#contact_info .row_content {
+    vertical-align: top;
+    width: 700px;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+
+    color: #4F4F4F;
+}
+
+#contact_info #contact_logo {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    scale: 50%;
+    left: 880px;
+    top: -50px;
+}
+
+#contact_info #map {
+    position: absolute;
+    left: 78px;
+    top: 50px;
+}
+
+#contact_info #contact_form {
+    margin-top: 200px;
+    margin-left: 160px;
+}
+
+#contact_form fieldset {
+    background-color: #FEF7E1;
+    border-color: transparent;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+#contact_form legend {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+
+    color: #4F4F4F;
+}
+
+#contact_form label {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+
+    color: #4F4F4F;
+}
+
+#contact_form .submit_button {
+    scale: 60%;
+    margin-left: -20px;
 }
 
 footer #footer_border {
@@ -313,7 +744,38 @@ footer #main_footer{
 
     background: #B3DEE2;
 }
+
+footer #slogan {
+    position: absolute;
+    width: 1500px;
+    height: 100px;
+    left: 250px;
+    top: 150px;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 86px;
+    line-height: 28px;
+
+    color: #4F4F4F;
+}
   
+footer #copyright_contact{
+    position: absolute;
+    width: 500px;
+    height: 28px;
+    left: 550px;
+    top: 350px;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #4F4F4F;
+}
   
 footer #copyright {
     position: absolute;
@@ -321,7 +783,6 @@ footer #copyright {
     height: 28px;
     left: 603px;
     top: 100px;
-
     font-family: 'Helvetica';
     font-style: normal;
     font-weight: 700;
@@ -333,7 +794,7 @@ footer #copyright {
 
 footer #info p{
     position: absolute;
-    width: 180px;
+    width: 240px;
     height: 69px;
     left: 603px;
     top: 130px;

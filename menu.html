@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Intat Tochirakul">
+    <meta name="keywords" content="Happy Day Dessert Factory">
+    <meta name="description" content="Happy Day Dessert Factory Website">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="js/scripts.js" type="text/javascript"></script>
+    <link href='https://fonts.googleapis.com/css?family=Proxima+Nova' rel='stylesheet' type='text/css'>
+    <title>Happy Day Dessert Factory</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="top_row">
+            <header>
+                <div id="header_bar">
+                  <div id="logo">
+                    <img src="images/logo.png" alt="Happy Day Dessert Factory logo">
+                  </div>
+                  <div id="title">
+                    <h1>HAPPY DAY DESSERT FACTORY</h1>
+                  </div>
+                </div>
+                <nav>
+                  <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="our-story.html">OUR STORY</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                  </ul>
+                </nav>
+            </header>
+        </div>
+        <div id="content">
+            <div class="tab">
+              <!-- tab code: https://www.w3schools.com/howto/tryit.asp filename=tryhow_js_tabs_open -->
+                <button class="tablinks" onclick="openTab(event, 'Desserts');" id="default_open">Desserts</button>
+                <button class="tablinks" onclick="openTab(event, 'Dairyfree');">Dairy-free</button>
+              </div>
+              
+              <div id="Desserts" class="tabcontent">
+                <h2 class="menu_heading">Our Signature Desserts Options</h2>
+                <h3 class="menu_subheading">Check out our awesome desserts selection!</h3>
+                <div class="menu_content">
+                    <!-- all icecream images from baskin robbins: https://order.baskinrobbins.com/menu/flavors?_gl=1*xmqu47*_ga*MTE4ODk2MTk0Mi4xNjc5NjM3OTM2*_ga_1N6G02F45X*MTY4MDM4NjI1My41LjAuMTY4MDM4NjI1My42MC4wLjA. -->
+                    <img src="images/strawberry-cheesecake.png" alt="img of strawberry cheese cake icecream">
+                    <h3>*NEW* Strawberry Cheesecake</h3>
+                    <p class="price">$3.60</p>
+                    <p class="description">Cheesecake flavored ice cream loaded with 
+                                    cheesecake pieces and tied up with a ribbon of 
+                                    strawberry flavor.</p>
+                    <br><hr><br>
+                    <img src="images/triple-choc-mousse.png" alt="img of triple chocolate mousse icecream">
+                    <h3>Triple Chocolate Mousse</h3>
+                    <p class="price">$3.60</p>
+                    <p class="description">Dark Chocolate, Milk Chocolate and Semi-Sweet 
+                                        chocolate all mixed into a chocolate mousse base to 
+                                        brighten your day!</p>
+                    <br><hr><br>
+                    <img src="images/apple-pie.png" alt="img of apple pie icecream">
+                    <h3>Apple Pie</h3>
+                    <p class="price">$3.60</p>
+                    <p class="description">Apples and Cinnamon captured perfectly on a cone!</p>
+                    <br><hr><br>
+                </div>
+              </div>
+              
+              <div id="Dairyfree" class="tabcontent">
+                <h2 class="menu_heading">Our Dairy-free Options</h2>
+                <h3 class="menu_subheading">Check out our awesome dairy-free selection!</h3> 
+                <div class="menu_content">
+                    <!-- images from https://www.happydaydessertfactory.com/flavors -->
+                    <img src="images/mango-ice.png" alt="img of mango water ice">
+                    <h3>Mango Water Ice</h3>
+                    <p class="price">$3.00</p>
+                    <p class="description">Blended puree and fresh mango mixed together perfectly!</p>
+                    <br><hr><br>
+
+                    <img src="images/lemon-ice.png" alt="img of lemon water ice">
+                    <h3>Lemon Water Ice</h3>
+                    <p class="price">$3.00</p>
+                    <p class="description">Fresh lemons blended to refreshing perfection!</p>
+                    <br><hr><br>
+
+                    <img src="images/blue-ice.png" alt="img of blue raspberry ice">
+                    <h3>Blue Raspberry Ice</h3>
+                    <p class="price">$3.00</p>
+                    <p class="description">Beautifully delicious!</p>
+                    <br><hr><br>
+                </div>
+              </div>
+        </div>
+        <footer>
+            <div id="footer_border">
+            </div> 
+            <div id="main_footer">
+                <div id="copyright">
+                    &copy; 2023 Happy Day Dessert Factory
+                </div>
+                <div id="info">
+                    <p>906A Western Ave., <br>
+                    Pittsburgh, <br>
+                    PA 15233 
+                    <br><br>
+                    Hours: 12PM to 8PM (Mon-Sun)
+                    <br><br>
+                    <a href="mailto:info@happydaydessertfactory.com" target="_blank"><img src="images/email.png" alt="mail Icon"></a>
+                    <a href="https://www.facebook.com/happydaydessertfactory" target="_blank"><img src="images/facebook.png" alt="facebook Icon"></a>
+                    <!-- book logo: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Ffree-vector%2Fguide-book-icon&psig=AOvVaw3YsSWcjAEkmI8mAioeaY1t&ust=1680562434323000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCLDH4oiljP4CFQAAAAAdAAAAABAN -->
+
+                    <a href="https://www.pittsburghmagazine.com/happy-day-dessert-factory-brings-frozen-delights-to-the-north-side/" target="_blank"><img src="images/book.png" alt="book Icon"></a>
+
+                    <br>Tel: (412)-872-0117</p>
+                </div>
+                <div id="footer_logo">
+                    <img src="images/logo.png" alt="happy day dessert factory logo">
+                </div>
+                <div id="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.049134515169!2d-80.01914878462685!3d40.45204946141458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f55936fcaed9%3A0x5d18ed4b7f0c8f5a!2sHappy%20Day%20Dessert%20Factory!5e0!3m2!1sen!2sus!4v1679650949929!5m2!1sen!2sus" 
+                    width="450" height="300" style="border:0;" allowfullscreen="" 
+                    loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>
+        document.getElementById("default_open").click();
+    </script>
+</body>
+</html>
